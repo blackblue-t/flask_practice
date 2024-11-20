@@ -29,5 +29,5 @@ def open_browser():
     #這會在預設的 Web 瀏覽器中開啟應用程式的 URL
 
 if __name__ == '__main__':
+    Timer(0.5, open_browser).start()
     app.run(debug=True, host='0.0.0.0', port=5000)
-    Timer(1, open_browser).start()
